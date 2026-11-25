@@ -1,0 +1,12 @@
+BIBLIOTECA ESCOLAR - OPERACIONES DE CONJUNTOS
+Grupo A: [101, 102, 103, 105]
+Grupo B: [102, 103, 104, 106]
+Unión A U B: [101, 102, 103, 104, 105, 106]
+Intersección A y B: [102, 103]
+Diferencia A - B: [101, 105]
+Diferencia B - A: [104, 106]
+Disponibles I - P: [101, 103, 104, 106, 108]
+Solicitudes que pueden atenderse: [101, 103, 104, 106]
+Solicitudes sin disponibilidad: [102, 105]
+Búsqueda 103: 103 - Bases de datos
+Búsqueda 999: No encontrado

@@ -1,0 +1,25 @@
+﻿ID,Prueba,Esperado,Obtenido,Estado
+P01,Unión,"[101, 102, 103, 104, 105, 106]","[101, 102, 103, 104, 105, 106]",OK
+P02,Intersección,"[102, 103]","[102, 103]",OK
+P03,Diferencia A - B,"[101, 105]","[101, 105]",OK
+P04,Diferencia B - A,"[104, 106]","[104, 106]",OK
+P05,Unión con vacío,"[101, 102, 103, 105]","[101, 102, 103, 105]",OK
+P06,Intersección con vacío,[],[],OK
+P07,A menos vacío,"[101, 102, 103, 105]","[101, 102, 103, 105]",OK
+P08,Vacío menos A,[],[],OK
+P09,Intersección consigo mismo,"[101, 102, 103, 105]","[101, 102, 103, 105]",OK
+P10,Diferencia consigo mismo,[],[],OK
+P11,Conjuntos disjuntos,[],[],OK
+P12,Eliminación de repetidos,"[101, 102]","[101, 102]",OK
+P13,Entradas conservadas,true,true,OK
+P14,Unión conmutativa,"[101, 102, 103, 104, 105, 106]","[101, 102, 103, 104, 105, 106]",OK
+P15,Intersección conmutativa,"[102, 103]","[102, 103]",OK
+P16,Diferencia no conmutativa,false,false,OK
+P17,Disponibilidad,"[101, 103, 104, 106, 108]","[101, 103, 104, 106, 108]",OK
+P18,Demanda sin disponibilidad,"[102, 105]","[102, 105]",OK
+P19,Búsqueda existente,Bases de datos,Bases de datos,OK
+P20,Búsqueda inexistente,false,false,OK
+P21,Registro duplicado,IllegalArgumentException,IllegalArgumentException,OK
+P22,Código no registrado,IllegalArgumentException,IllegalArgumentException,OK
+P23,Salida ordenada,"[101, 102, 103, 105]","[101, 102, 103, 105]",OK
+P24,Resultado independiente,true,true,OK
